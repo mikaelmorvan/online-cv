@@ -7,114 +7,195 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Mikaël Morvan
+    tagline: DevOps & Cloud Architect
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: hello@morvan.consulting
+    phone: +33 6 62 18 33 96
+    website: blog.morvan.consulting #do not add http://
+    linkedin: mikaelmorvan
+    github: mikaelmorvan
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: '@mikaelmorvan'
+    stack-overflow: 
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    goodreads: 
 
     languages:
-      - idiom: English
+      - idiom: Français
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: Anglais
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Cuisine
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Programmation
         link:
 
 career-profile:
-    title: Career Profile
+    title: Mon profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Bonjour,
+
+      Je suis Mikaël Morvan, je suis un Architecte cloud expérimenté et DevOps, j'ai mis en production des projets Kubernetes sur Google cloud, Amazon Web services et sur du Baremetal (k3s, Rancher). 
+
+      Mon expertise :
+      * Définition, suivi et implémentation de votre architecture cloud de A à Z
+      - Kubernetes (helm, kustomize)
+      - Docker Swarm
+      - Baremetal linux
+      - micro-services
+      - serverless
+      - Traefik
+
+      * Intégration et déploiement continu
+      - Génération et stockage d'images Docker sur Gitlab
+      - Ecriture et déploiement de scripts Ansible
+      - Ecriture et déploiement de scripts Terraform
+      - Déploiement GitOps avec ArgoCD
+
+      * Développement en Go, Java
+      - micro, beego, 
+      - Spring
+
+      J'ai été pendant 5 ans le Pdg d'une startup nommée ZetaPush spécialisée dans la fourniture de services cloud temps réel as a service. J'ai de ce fait un énorme expertise dans les architectures complexes et la mise en production de celles-ci.
+
+      Je peux vous aider à définir vos besoins ou à adapter votre existant pour intégrer la dimension cloud et CI-CD.
+      Je peux vous faire bénéficier de mon expérience de créateur de projet pour vous conseiller dès la phase d'idéation.
+
+      N'hésitez pas à faire appel à mes services et à mon expérience.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Maîtrise EEA
+      university: UBO Brest
+      time: 1992 - 1996
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Maîtrise d'Electronique
+    - degree: Bac D
+      university: Saint François Lesneven
+      time: 1988 - 1992
+      details:         
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: DevOps - Cloud Architect
+      time: nov 2020 - Present
+      company: Moonda - Bordeaux
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Audit CMS .Net sur Kubernetes Google Cloud
+        Audit API gateway (Traefik)
+        * stabilité
+        * scalabilité
+        * évolutivité
+        * sécurité
+        Optimisation de la chaîne CI-CD sur Gitlab
+        Optimisation usage des certificats wildcard LetsEncrypt 
+        Portage de GKE sur GCP vers offre Kubernetes OVH.
+
+    - role: DevOps - Cloud Architect
+      time: sept 2020 - octobre 2020
+      company: ScaleDynamics - Rennes
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        La mission consistait à mettre en place une chaîne de build d'un code source en NodeJs sur Google Cloud Build. 
+        * étude, conseil sur Google Cloud Build
+        * réalisation d'un générateur de configuration (Docker File, Conf Nginx, ...) en NodeJs
+        * réalisation d'une image Docker du générateur et dépôt sur Google Cloud Registry
+        * mise en oeuvre d'une chaîne de build sur Google Cloud Build avec lancement automatique du générateur comme étape du build
+        * démonstration du lancement automatique par appel d'API.
+
+    - role: DevOps - Cloud Architect
+      time: juillet 2020
+      company: mobySTOCK
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Compréhension du besoin
+        Définition de l'architecture cible
+        Containérisation application Php-Mysql 
+        Intégration continue sur Gitlab
+        Réalisation des scripts de déploiement Helm / Kustomize
+        Paramétrage cluster Kubernetes
+        Echanges client, debug code Php
+
+    - role: Cloud Architect
+      time: oct 2019 - mars 2020
+      company: Acklio
+      details: |
+        Audit de l'architecture en micro-service en Go. 
+        Conseil sur l'optimisation du déploiement Kubernetes.
+        Mise en oeuvre de Kustomize pour le déploiement Kubernetes multi-clients
+        Conseil sur l'intégration d'une nouvelle solution d'authentification. 
+        Mise en oeuvre de Keycloak en Go. 
+        Conseils aux équipes de développement.
+
+    - role: CEO - Cloud Architect
+      time: 2015 - 2019
+      company: ZetaPush
+      details: |
+        ZetaPush, Startup - Moteur d’application temps réel – Cesson Sévigné
+        * Chef d’entreprise
+        - Gestion d’équipes (12 personnes),
+        - Gestion d’entreprise (comptabilité, finance, RH, …)
+        - Montage de projet, de budget, de business Plan
+        - Pitch de projet
+
+        * Architecte Déploiement Serverless sur Kubernetes
+        - Cluster Rancher
+        - Templates Helm
+        - Déploiement continue seamless
+        - Architecture Backend As A Service 
+        - Serveurs temps réels haute dispo
+        - Serveurs bare-metal
+        - Dashboard Angular
+        - SDK de connexion Javascript, Go, Swift
+        - SDK WebRTC Javascript, Android, Swift
+
+    - role: Architecte Web
+      time: 2010 2015
+      company: Orange
+      details: |
+        Projet Messaging Suite – Architecte Web Leader (interne Orange)
+
+        * Architecture mise en place Chat pour le mail grand public Orange
+
+        Architecte et leader technique sur divers projets innovants d'Orange.
+    
+    - role: Architecte Web
+      time: 2007 - 2010
+      company: SII
+      details: |
+        Messaging Suite (Orange Labs) : Architecte Web Leader (externe)
+        * Réalisation de l'architecture Web de la solution
+
+        Plateau Forfait SII
+        * Architecte, Leader technique
+        * Réponse aux appels d’offres
+        * Préconisation d’architecture
+
+    - role: Développeur, Chef de projet, Architecte logiciel
+      time: 2001 - 2007
+      company: Silicomp AQL
+      details: |
+        Projet3D : simulation de la propagation des antennes pour TDF
+        * Architecture logicielle
+        * Développement calculs scientifiques
+        * Suivi d’équipe
+
+        Projet KrissLaure : calcul de commissionnement
+        * Architecture logicielle
+        * Développement des calculs de parcours d’arbre
+        * Suivi d’équipe
+        Diminution du temps de calcul de 4 heures à 3 secondes
+
+    - role: Développeur
+      time: 1997 - 2000
+      company: AST
+      details: |
+        Concepteur développeur sur deux applications
+        * Logiciel de gestion d'entreprise en Delphi
+        * Logiciel de gestion de la sécurité incendie d'Alcatel Brest
 projects:
     title: Projects
     intro: >
@@ -165,26 +246,32 @@ publications:
         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Compétences
 
     toolset:
-      - name: Python & Django
+      - name: Kubernetes
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Google Cloud
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: AWS
+        level: 80%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Azure
+        level: 80%
+
+      - name: Gitlab
+        level: 90%      
+
+      - name: Golang
+        level: 90%
+
+      - name: Java
+        level: 90%
+
+      - name: JavaScript
+        level: 98%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
