@@ -40,7 +40,7 @@ sidebar:
         link:
 
 career-profile:
-    title: Mon profile
+    title: Mon profil
     summary: |
       Bonjour,
 
@@ -197,7 +197,7 @@ experiences:
         * Logiciel de gestion d'entreprise en Delphi
         * Logiciel de gestion de la sécurité incendie d'Alcatel Brest
 projects:
-    title: Projects
+    title: Projets
     intro: >
       You can list your side projects or open source libraries in this
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
